@@ -26,7 +26,7 @@ namespace ConsoleApp10
             }
             set
             {
-                if (_price < 0) 
+                if (value < 0) 
                 {
                     throw new PriceMustBeGratherThanZeroException(" menfi qiymet olmurr !!! ");
                 }
